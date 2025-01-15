@@ -1,0 +1,115 @@
+* {
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fafafa;
+}
+
+.container {
+  z-index: 1px;
+  display: flex;
+  justify-content: start;
+}
+
+.phone-main {
+  border: 15px solid white;
+  border-radius: 10px;
+  background-color: hsl(206, 6%, 79%);
+  height: 620px;
+  width: 350px;
+}
+
+.user-title {
+  gap: 20px;
+  display: flex;
+  color: white;
+  border-radius: 5px;
+  background: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  height: 60px;
+  width: 320px;
+}
+
+.text-1 {
+  color: hsl(276, 55%, 52%);
+  border-radius: 5px;
+  margin: 10px 10px;
+  background-color: #ebe2f3;
+  height: 40px;
+  width: 200px;
+}
+
+.text-2 {
+  margin-right: 100px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  background-color: white;
+  height: 50px;
+  width: 200px;
+}
+
+.messagee-2 {
+  display: flex;
+  flex-direction: column; /* Alt alta sıralamak için dikey hizalamayı sağlar */
+  align-items: end; /* Sağ tarafa hizalar */
+  gap: 10px; /* Mesajlar arasında boşluk bırakır */
+}
+
+.text {
+  color: hsl(276, 55%, 52%);
+  border: 5px;
+  background-color: #ebe2f3;
+  height: 60px;
+  width: 200px;
+}
+
+.selct-1 {
+  gap: 10px;
+  display: flex;
+  border-radius: 5px 10px 10px 5px;
+  margin: 10px;
+  background: linear-gradient(hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  color: white;
+  height: 40px;
+  width: 200px;
+}
+h4 {
+  color: white;
+}
+
+input {
+  margin-left: 5px;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 260px;
+}
+
+.dog-image {
+  margin-right: 10px;
+  justify-content: end;
+  gap: 10px;
+  display: flex;
+}
+
+img {
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+#avatar {
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.radio {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+}

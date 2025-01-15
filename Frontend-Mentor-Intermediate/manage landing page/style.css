@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro:wght@400;500;700 & display=swap');
+
+
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*-----------------------------------------------------------------*/
+
+p{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+    color: hsl(227, 12%, 61%);
+}
+
+
+button{
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px;
+    background: hsl(12, 88%, 59%);
+}
+
+h1 , h2{
+    color:hsl(233, 12%, 13%);
+}
+
+ol , li{
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+#img-bgr{
+    z-index: -1;
+    top: -20%;
+    left: 52%;
+    position: absolute;
+}
+#img-icon{
+    left: 55%;
+    top: 10%;
+    z-index: 1;
+    position: absolute;
+}
+
+#logo{
+    position: absolute;
+    left: 30px;
+}
+
+#btn-head{
+    right: 90px;
+    position: absolute;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+footer{
+    background: hsl(233, 12%, 13%);
+    height: 200px;
+    width: 100%;
+}
+
+#ads{
+    background: hsl(12, 88%, 59%);
+    height: 200px;
+    width: 100%;  
+}
+
+    h1{
+        margin-top:100px;
+        text-align: start;
+        margin-left: 40px;
+    }
+
+    h2{
+        margin-top:100px;
+        text-align: start;
+        margin-left: 40px;   
+    }
+
+    .center{
+        text-align: center;
+    }
+
+
+    #btn-1{
+        margin-left: 20;
+        margin-top: 5px;
+    }
+
+    #wht-text{
+    margin-top: 100px;
+        color: white;
+    }
+
+    #btn-2{
+        background: white;
+        margin-left: 90%;
+        color: hsl(12, 88%, 59%);
+    }
+
+
+    .page-3{
+    justify-content: space-between;
+    display: flex;
+    }
+
+
+    .card{
+    background:hsl(0, 0%, 98%);
+    height:200px;
+    width: 400px;
+    }
+
+    .long-text , .human{
+        margin-right: 40px;
+        text-align: center;
+    }
