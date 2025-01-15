@@ -1,0 +1,120 @@
+
+
+
+
+
+
+body{
+    background: hsl(233, 47%, 7%);
+
+}
+
+
+    .container{
+    display: flex;
+    justify-content: center;
+    }
+
+
+    .box-model{
+    height: 300px;
+    width:800px;
+    background: hsl(244, 38%, 16%);
+    }
+
+
+    h1{
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        padding-left: 20px;
+        color:hsl(0, 0%, 100%);
+        text-align: start;
+    }
+
+
+    .img-box{
+        justify-content:end;
+        display: flex;
+        width: 400px;
+        height: 400;
+    }
+
+    P{
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        padding-left:20px;
+        color:hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+    }
+   
+    img{
+        width: 400px;
+        height: 300px;
+        top:6px;
+        height: 300px;
+        left: 50%;
+        position: absolute;
+    }
+
+    h4{
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        margin-left: 40px;
+        display: inline-block;
+        margin: 15px;
+        color:hsl(0, 0%, 100%); 
+         }
+
+         h5{
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            margin-left: 20px;
+            display: inline-block;
+            margin: 15px;
+            color:hsla(0, 0%, 100%, 0.75);
+             }
+
+        .score{
+            display: flex;
+            margin-top: 5px;
+            margin-left: 40px;
+             }
+
+
+
+    /*mobile digsean is here code used 375px */
+
+             /*
+    @media (max-width:375px) {
+        
+        .container{
+            justify-content: center;
+            display: flex;
+        }
+
+        .box-model{
+            border-radius: 10px;
+            height: 800px;
+            width: 350px;
+            background: hsl(244, 38%, 16%);
+        }
+
+         p{
+            margin-top: 90%;
+            text-align: center;
+            color: white;
+            justify-content: center;
+        }
+        
+        img{
+            left:4px;
+            position: absolute;
+            width: 350px;
+            height: 250px;
+            border-radius: 10px;
+        }
+        
+    }
+
+    */
+    

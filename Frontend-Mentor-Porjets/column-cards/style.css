@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700;800&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@200;400&family=Karla:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300&family=Outfit&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+
+.main-box{
+    position: relative;
+    width: 1199px;
+    height: 644px;
+}
+.box-1{
+    position: relative;
+    background: hsl(31, 77%, 52%);
+    width: 398px;
+    border-radius: 10px 0px 0px 10px ;
+    height: 644px;
+}
+.box-2{
+    top: -644px;
+    left: 398px;
+    position: relative;
+    background: hsl(184, 100%, 22%);
+    width: 398px;
+    height: 644px;
+}
+.box-3{
+    top: -1288px;
+    left:796px;
+    position: relative;
+    background: hsl(179, 100%, 13%);
+    width: 398px;
+    border-radius: 0px 10px 10px 0px;
+    height: 644px;
+}
+
+h1{
+    left: 30;
+    position: relative;
+     font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 50px
+}
+
+
+p{
+    left: 30px;
+position: relative;
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 25px;
+}
+
+button{
+    left: 30px;
+    top: 90px;
+    position: relative;
+    background: white;
+    border: none;
+    border-radius:40px ;
+    height: 50px;
+    width: 160px;
+    color:hsl(179, 100%, 13%);
+}
+
+img{
+    top: 10px;
+    left: 30;
+    position: relative;
+    width: 140px;
+}
+
+
+.btn-1:hover{
+    background: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-2:hover{
+    background: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+.btn-3:hover{
+    background: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+/* resporsive code is here (mobile)*/
+
+@media (max-width:375px) {
+
+    .main-box{
+        height: 1500px;
+        width: 350px;
+    }
+    .box-1{
+        height: 500px;
+        width: 350px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .box-2{
+        top: 0px;
+        left: 1px;
+        position: relative;
+        height: 500px;
+        width: 350px;
+    }
+    .box-3{
+        left: 0px;
+        top: 0px;
+        height: 500px;
+        position: relative;
+        width: 350px;
+        border-radius: 00px 0px 10px 10px;
+    }
+}
+
+
+/*text and image code is here*/
+
+@media (max-width:375px) {
+
+    h1{
+        font-size: 35;
+    }
+    p{
+        font-size: 20px;
+    }
+    img{
+        width: 100px;
+        height:90px;
+    }
+}
